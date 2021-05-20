@@ -82,5 +82,10 @@ Vagrant.configure("2") do |config|
      curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
      apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
      apt-get install terraform
+
+    
+    #install azure cli
+    curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+    
     SHELL
 end
