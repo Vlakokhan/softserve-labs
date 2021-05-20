@@ -1,0 +1,11 @@
+.vagrant
+*.ppk
+
+.terraform-dev
+.terraform*
+provider.tf
+*.tfvars
+service-principal
+*.tfstate*
+
+group_vars
