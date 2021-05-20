@@ -70,7 +70,8 @@ Vagrant.configure("2") do |config|
     # instal nginx
      apt-get install -y nginx
 
-     
+     #install git
+     apt-get install -y git
 
     SHELL
 end
