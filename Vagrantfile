@@ -73,5 +73,9 @@ Vagrant.configure("2") do |config|
      #install git
      apt-get install -y git
 
+    #install ansible
+    apt-get install -y software-properties-common
+    apt-add-repository --yes --update ppa:ansible/ansible
+    apt-get install -y ansible     
     SHELL
 end
